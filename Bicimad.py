@@ -19,11 +19,14 @@ def mapper(line):
     data = get_trip(line)
     user_age = data['ageRange']
     trip_hour = data['unplug_hourTime']
-    return user_age, trip_`hour
-
+    return user_age, trip_hour
+"""
+mi idea es que si tenemos un datetime object para sacar la hora se coge el objeto y se pone .hour
+y a ver si asi funciona mejor. 
+"""
 def get_return_users(rdd, selected_age, selected_hour):
     users = rdd.map(mapper)\
-        .filter(lambda x: x[0]==selected_age and selected_hour*8<=x[1]<=(selected_hour+1)*8)\#NOTA: Lo del x[1] en el rango de hora hay que arreglarlo 100% porque no se como es el formato de x[1]
+        .filter(lambda x: x[0]==selected_age and selected_hour*8<=x['unplug_hourTime'].hour<=(selected_hour+1)*8) #NOTA: Lo del x[1] en el rango de hora hay que arreglarlo 100% porque no se como es el formato de x[1]
     return users
 
 def main(sc, years, months, datadir):
@@ -63,5 +66,5 @@ if __name__=="__main__":
     print(f"months: {months}")
     print(f"datadir: {datadir}")
     
-    sc = SparkContext()1
+    with initSC(0,0) as sc:
         main(sc, years, months, datadir)
