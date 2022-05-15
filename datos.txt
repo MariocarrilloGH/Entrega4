@@ -1,0 +1,112 @@
+Rangos de edad:
+	0: No se ha podido determinar el rango de edad del usuario.
+	1: El usuario tiene entre 0 y 16 años.
+	2: El usuario tiene entre 17 y 18 años.
+	3: El usuario tiene entre 19 y 26 años.
+	4: El usuario tiene entre 27 y 40 años.
+	5: El usuario tiene entre 41 y 65 años.
+	6: El usuario tiene 66 años o más.
+
+Rangos hora:
+	0: 00:00 - 07:59
+	1: 08:00 - 15:59
+	2: 16:00 - 23:59
+
+DATOS: (de 2019(preconfinamiento) y 2020(confinamiento))
+	
+	Primavera: (Abril, Mayo y Junio)
+		
+		Rango edad: 0 Rango hora: 0 Usos: (2019: 69561) (2020: 33717)
+		Rango edad: 0 Rango hora: 1 Usos: (2019: 189486) (2020: 83046)
+		Rango edad: 0 Rango hora: 2 Usos: (2019: 253834) (2020: 156978)
+		Rango edad: 1 Rango hora: 0 Usos: (2019: 2594) (2020: 2012)
+		Rango edad: 1 Rango hora: 1 Usos: (2019: 5071) (2020: 1848)
+		Rango edad: 1 Rango hora: 2 Usos: (2019: 2860) (2020: 1233)
+		Rango edad: 2 Rango hora: 0 Usos: (2019: 799) (2020: 158)
+		Rango edad: 2 Rango hora: 1 Usos: (2019: 1904) (2020: 340)
+		Rango edad: 2 Rango hora: 2 Usos: (2019: 2533) (2020: 1508)
+		Rango edad: 3 Rango hora: 0 Usos: (2019: 8938) (2020: 2245)
+		Rango edad: 3 Rango hora: 1 Usos: (2019: 21976) (2020: 5624)
+		Rango edad: 3 Rango hora: 2 Usos: (2019: 30186) (2020: 11033)
+		Rango edad: 4 Rango hora: 0 Usos: (2019: 35858) (2020: 13271)
+		Rango edad: 4 Rango hora: 1 Usos: (2019: 130800) (2020: 32302)
+		Rango edad: 4 Rango hora: 2 Usos: (2019: 152209) (2020: 46928)
+		Rango edad: 5 Rango hora: 0 Usos: (2019: 26279) (2020: 16349)
+		Rango edad: 5 Rango hora: 1 Usos: (2019: 113198) (2020: 33336)
+		Rango edad: 5 Rango hora: 2 Usos: (2019: 101237) (2020: 35462)
+		Rango edad: 6 Rango hora: 0 Usos: (2019: 318) (2020: 463)
+		Rango edad: 6 Rango hora: 1 Usos: (2019: 2864) (2020: 1374)
+		Rango edad: 6 Rango hora: 2 Usos: (2019: 2923) (2020: 1354)
+		
+	Verano: (Julio, Agosto y Septiembre)
+		
+		Rango edad: 0 Rango hora: 0 Usos: (2019: 78379) (2020: 105971)
+		Rango edad: 0 Rango hora: 1 Usos: (2019: 145328) (2020: 257439)
+		Rango edad: 0 Rango hora: 2 Usos: (2019: 166230) (2020: 309239)
+		Rango edad: 1 Rango hora: 0 Usos: (2019: 2390) (2020: 2648)
+		Rango edad: 1 Rango hora: 1 Usos: (2019: 2584) (2020: 4514)
+		Rango edad: 1 Rango hora: 2 Usos: (2019: 2206) (2020: 2903)
+		Rango edad: 2 Rango hora: 0 Usos: (2019: 573) (2020: 543)
+		Rango edad: 2 Rango hora: 1 Usos: (2019: 1104) (2020: 1167)
+		Rango edad: 2 Rango hora: 2 Usos: (2019: 1551) (2020: 2588)
+		Rango edad: 3 Rango hora: 0 Usos: (2019: 8280) (2020: 6583)
+		Rango edad: 3 Rango hora: 1 Usos: (2019: 16454) (2020: 15376)
+		Rango edad: 3 Rango hora: 2 Usos: (2019: 19853) (2020: 20653)
+		Rango edad: 4 Rango hora: 0 Usos: (2019: 56571) (2020: 40041)
+		Rango edad: 4 Rango hora: 1 Usos: (2019: 94123) (2020: 95109)
+		Rango edad: 4 Rango hora: 2 Usos: (2019: 95282) (2020: 99193)
+		Rango edad: 5 Rango hora: 0 Usos: (2019: 39985) (2020: 35891)
+		Rango edad: 5 Rango hora: 1 Usos: (2019: 75389) (2020: 90291)
+		Rango edad: 5 Rango hora: 2 Usos: (2019: 56608) (2020: 67326)
+		Rango edad: 6 Rango hora: 0 Usos: (2019: 618) (2020: 632)
+		Rango edad: 6 Rango hora: 1 Usos: (2019: 2264) (2020: 2772)
+		Rango edad: 6 Rango hora: 2 Usos: (2019: 1640) (2020: 1729)
+		
+	Otoño: (Octubre, Noviembre y Diciembre)
+		
+		Rango edad: 0 Rango hora: 0 Usos: (2019: 82122) (2020: 61163)
+		Rango edad: 0 Rango hora: 1 Usos: (2019: 176894) (2020: 242939)
+		Rango edad: 0 Rango hora: 2 Usos: (2019: 190747) (2020: 248492)
+		Rango edad: 1 Rango hora: 0 Usos: (2019: 2982) (2020: 1248)
+		Rango edad: 1 Rango hora: 1 Usos: (2019: 3804) (2020: 3278)
+		Rango edad: 1 Rango hora: 2 Usos: (2019: 2797) (2020: 1537)
+		Rango edad: 2 Rango hora: 0 Usos: (2019: 818) (2020: 232)
+		Rango edad: 2 Rango hora: 1 Usos: (2019: 1730) (2020: 1213)
+		Rango edad: 2 Rango hora: 2 Usos: (2019: 1842) (2020: 2120)
+		Rango edad: 3 Rango hora: 0 Usos: (2019: 8080) (2020: 3485)
+		Rango edad: 3 Rango hora: 1 Usos: (2019: 20730) (2020: 15671)
+		Rango edad: 3 Rango hora: 2 Usos: (2019: 22389) (2020: 18364)
+		Rango edad: 4 Rango hora: 0 Usos: (2019: 51401) (2020: 23593)
+		Rango edad: 4 Rango hora: 1 Usos: (2019: 110002) (2020: 91217)
+		Rango edad: 4 Rango hora: 2 Usos: (2019: 105526) (2020: 84059)
+		Rango edad: 5 Rango hora: 0 Usos: (2019: 40620) (2020: 23168)
+		Rango edad: 5 Rango hora: 1 Usos: (2019: 99509) (2020: 88782)
+		Rango edad: 5 Rango hora: 2 Usos: (2019: 68021) (2020: 58640)
+		Rango edad: 6 Rango hora: 0 Usos: (2019: 599) (2020: 302)
+		Rango edad: 6 Rango hora: 1 Usos: (2019: 3094) (2020: 2696)
+		Rango edad: 6 Rango hora: 2 Usos: (2019: 1862) (2020: 1304)
+		
+	Invierno: (Enero, Febrero y Marzo)
+		
+		Rango edad: 0 Rango hora: 0 Usos: (2019: 50707) (2020: 55410)
+		Rango edad: 0 Rango hora: 1 Usos: (2019: 154306) (2020: 136768)
+		Rango edad: 0 Rango hora: 2 Usos: (2019: 186230) (2020: 148968)
+		Rango edad: 1 Rango hora: 0 Usos: (2019: 2025) (2020: 2074)
+		Rango edad: 1 Rango hora: 1 Usos: (2019: 5391) (2020: 2902)
+		Rango edad: 1 Rango hora: 2 Usos: (2019: 2433) (2020: 2358)
+		Rango edad: 2 Rango hora: 0 Usos: (2019: 680) (2020: 526)
+		Rango edad: 2 Rango hora: 1 Usos: (2019: 2089) (2020: 1044)
+		Rango edad: 2 Rango hora: 2 Usos: (2019: 2445) (2020: 1323)
+		Rango edad: 3 Rango hora: 0 Usos: (2019: 7159) (2020: 4915)
+		Rango edad: 3 Rango hora: 1 Usos: (2019: 18873) (2020: 13336)
+		Rango edad: 3 Rango hora: 2 Usos: (2019: 25172) (2020: 14482)
+		Rango edad: 4 Rango hora: 0 Usos: (2019: 30296) (2020: 34685)
+		Rango edad: 4 Rango hora: 1 Usos: (2019: 118170) (2020: 85044)
+		Rango edad: 4 Rango hora: 2 Usos: (2019: 121896) (2020: 87061)
+		Rango edad: 5 Rango hora: 0 Usos: (2019: 21938) (2020: 26878)
+		Rango edad: 5 Rango hora: 1 Usos: (2019: 102283) (2020: 81387)
+		Rango edad: 5 Rango hora: 2 Usos: (2019: 81034) (2020: 59753)
+		Rango edad: 6 Rango hora: 0 Usos: (2019: 224) (2020: 378)
+		Rango edad: 6 Rango hora: 1 Usos: (2019: 2501) (2020: 2207)
+		Rango edad: 6 Rango hora: 2 Usos: (2019: 1930) (2020: 1610)
+		
