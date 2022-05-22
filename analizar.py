@@ -55,12 +55,16 @@ for k in range(4):
         if (p)%7==0:
             totales20.append(total)
             total = 0
+p = 0
 for i in Porcentajes2019:
     for k in range(len(i)):
-        i[k]= round(i[k]/totales19[k//7],3)
+        i[k]= round(i[k]/totales19[(k//7) + 3*p],3)
+    p += 1
+p = 0
 for i in Porcentajes2020:
     for k in range(len(i)):
-        i[k]= round(i[k]/totales20[k//7],3)
+        i[k]= round(i[k]/totales20[(k//7)+3*p],3)
+    p += 1
 primavera2019 = {0:Porcentajes2019[0][0:6],1:Porcentajes2019[0][7:13],2:Porcentajes2019[0][14:20]}
 verano2019 = {0:Porcentajes2019[1][0:6],1:Porcentajes2019[1][7:13],2:Porcentajes2019[1][14:20]}
 otoño2019 = {0:Porcentajes2019[2][0:6],1:Porcentajes2019[2][7:13],2:Porcentajes2019[2][14:20]}
